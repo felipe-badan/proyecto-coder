@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------------- HEADER --------------------------------- */
+
+header div {
+    width: 20%;
+}
+
+header div img {
+    width: 20%;
+}
+
+header nav ul {
+    display: flex;
+    column-gap: 150px;
+}
+
+header nav ul li a{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 1.0625rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #C2C2C2;
+}
+
+header div{
+    background-color: white;
+    margin-right: 70px;
+}
+
+header div h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+}
+
+/* -------------------------- MAIN / INDEX --------------------------- */
+
+.hero-section {
+    background-image: url("../assets/img/bg-hero.jpg");
+    height: 940px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section div {
+    width: 60%;
+}
+.hero-section div h2 {
+    font-size: 3.75rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;   
+    border: 1.5px solid white;
+    padding: 20px;
+}
+
+.hero-section p{
+    color: white;
+    margin-top: 40px;
+    font-size: 1.0625rem;
+}
+
+.boton {
+    background-color: gray;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.about-irongym div {
+    width: 50%;
+}
+
+.about-irongym iframe {
+    width: 30%;
+}
+
+.about-irongym{
+    background-color: rgba(23, 23, 23, 0.409);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-irongym h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; 
+    text-align: center; 
+}
+
+.about-irongym div div h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; 
+    text-align: center; 
+    font-size: 1.875rem; 
+}
+
+.shape-body{
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+.shape-body h3{
+    margin-top: 25px;
+    font-size: 1.375rem;
+    
+}
+
+.shape-body p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.choose-title {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+}
+
+.choose-title h2 {
+    margin-top: 3px;
+    font-size: 2.1875rem;
+}
+
+.feature-bloque {
+    display: flex;
+    padding: 7px;
+}   
+
+.feature-bloque div {
+    margin-left: 15px;
+    width: 35%;
+}
+
+.feature-bloque div h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+
+}
+
+.feature-bloque div p {
+    text-align: center;
+    margin-top: 5px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400; 
+}
+
+.features-uno {
+    display: flex;
+    width: 80%;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.features-dos {
+    display: flex;
+    width: 80%;
+    text-align: center;
+}
+
+.choose-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.feature-bloque img {
+    width: 100px;
+    height: 67px;
+}
+
+.classes-title {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+}
+
+.classes-title h2 {
+    font-size: 2.1875rem;
+}
+
+.our-classes {
+    padding: 30px;
+    background-color: #666466;
+}
+
+
+
+
+
+
+/* -------------------------- FOOTER -------------------------- */
+
+
+footer {
+    background-color: grey;
+    padding: 20px;
+}
+
+.footer-logo {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-logo img {
+    width: 20%;
+    height: 50px;
+}
+
+.tres-col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+}
+
+footer ul li {
+    margin-top: 7px;
+}
+
+footer ul li img{
+    margin-right: 12px;
+}
+
+.tres-col div {
+    width: 20%;
+}
+
+.parrafo-logo {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.dos-col {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    margin-top: 45px; 
+}
+
+.dos-col div a img {
+    margin-right: 20px;
+}
+
+
+.copyright {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+
+
+/* -------------------------- MAIN / NOSOTROS --------------------------- */
+
+.about-us {
+    height: 900px;
+    background-image: url("../assets/img/bg-nosotros.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.about-us h3 {
+    text-align: center;
+    color: gray;
+    font-size: 2.8125rem;
+}
+
+.title-about {
+    height: 350px;
+    font-size: 3.125rem;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dif-color {
+    color: #DF9D50;
+}
+
+.about-parrafo {
+    height: 350px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------- HEADER --------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
