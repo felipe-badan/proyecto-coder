@@ -17,40 +17,54 @@ a {
 
 /* ---------------------- HEADER --------------------------------- */
 
-header div {
-    width: 20%;
+header {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color:#C2C2C2;
+}
+
+header div{
+    width: 15%;
+    background-color: white;
+}
+
+header nav {
+    width: 85%;
 }
 
 header div img {
     width: 20%;
 }
 
-header nav ul {
-    display: flex;
-    column-gap: 150px;
+header div h2 {
+    width: 80%;
 }
 
-header nav ul li a{
+header div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li a {
     font-family: "Oswald", sans-serif;
     font-weight: 600;
     font-size: 1.0625rem;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    background-color: #C2C2C2;
-}
 
-header div{
-    background-color: white;
-    margin-right: 70px;
-}
 
-header div h1{
-    font-family: "Oswald", sans-serif;
-    font-weight: 600; 
-}
+
+
+
 
 /* -------------------------- MAIN / INDEX --------------------------- */
 
@@ -65,8 +79,18 @@ header div h1{
     align-items: center;
 }
 
+
 .hero-section div {
     width: 60%;
+}
+
+.hero-section div h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;   
+    color: rgba(245, 245, 245, 0.74);
 }
 .hero-section div h2 {
     font-size: 3.75rem;
@@ -79,7 +103,7 @@ header div h1{
 
 .hero-section p{
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 1.0625rem;
 }
 
@@ -150,6 +174,7 @@ header div h1{
 .feature-bloque {
     display: flex;
     padding: 7px;
+    justify-content: center;
 }   
 
 .feature-bloque div {
@@ -222,12 +247,28 @@ header div h1{
 
 footer {
     background-color: grey;
-    padding: 20px;
+    padding: 40px;
+}
+
+.tres-col {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500; 
+}
+
+.tres-col-div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-logo {
-    width: 20%;
-    height: 50px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,28 +276,19 @@ footer {
 }
 
 .footer-logo img {
-    width: 20%;
-    height: 50px;
+    width: 15%;
 }
 
-.tres-col {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: "Oswald", sans-serif;
-    font-weight: 600; 
+.footer-logo h2 {
+    width: 45%;
 }
 
 footer ul li {
-    margin-top: 7px;
+    margin-top: 12px;
 }
 
 footer ul li img{
     margin-right: 12px;
-}
-
-.tres-col div {
-    width: 20%;
 }
 
 .parrafo-logo {
@@ -282,7 +314,7 @@ footer ul li img{
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 
