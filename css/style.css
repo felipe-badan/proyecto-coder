@@ -233,9 +233,20 @@ header nav ul li a {
 }
 
 .our-classes {
-    padding: 30px;
     background-color: #666466;
 }
+
+.diff-classes img {
+    width: 33.33%;
+    height: 320px; 
+}
+
+.diff-classes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 
 
 
@@ -322,8 +333,8 @@ footer ul li img{
 /* -------------------------- MAIN / NOSOTROS --------------------------- */
 
 .about-us {
-    height: 900px;
     background-image: url("../assets/img/bg-nosotros.jpg");
+    height: 750px;
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -336,7 +347,7 @@ footer ul li img{
 }
 
 .title-about {
-    height: 350px;
+    height: 500px;
     font-size: 3.125rem;
     color: white;
     display: flex;
@@ -345,16 +356,81 @@ footer ul li img{
 }
 
 .dif-color {
-    color: #DF9D50;
+    color: #de8d30;
 }
 
 .about-parrafo {
-    height: 350px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-parrafo p {
+    width: 70%;
     color: white;
     text-align: center;
-    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.gym-over {
+    background-color: rgba(23, 23, 23, 0.862);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.ov-bloque {
+    width: 50%;
+}
+
+.gym-over iframe {
+    width: 30%;
+}
+
+.ov-bloque div h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 1.5625rem;
+}
+
+.ov-bloque div h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    color: #de8d30;
+    font-size: 1.75rem;
+}
+
+.ov-bloque p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 80%;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.client-testimonials {
+    background-image: url("../assets/img/bg-testimonials.jpg");
+    background-image: cover;
+    background-position: center;
+    height: 1000px;
+    padding: 30px;
+}
+
+.title-testimonials h3 {
     text-align: center;
+    color: white;
+    font-size: 2.5rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+}
+
+.title-testimonials h2 {
+    text-align: center;
+    font-size: 3.125rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
 }
 
 
@@ -366,6 +442,154 @@ footer ul li img{
 
 
 
+
+
+
+
+
+
+.gym-awards{
+    background-color: rgba(73, 72, 72, 0.689);
+}
+.title-awards h3 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.title-awards h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+}
+
+.section-gallery {
+    background-color: black;
+    padding: 35px;
+}
+.section-gallery h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.gym-gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas: 
+    "img-1 img-2 img-3 img-3"
+    "img-1 img-4 img-5 img-6"
+    "img-7 img-4 img-8 img-8";
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-1 {
+    grid-area: img-1;
+}   
+
+.img-2 {
+    grid-area: img-2;
+}
+
+.img-3 { 
+    grid-area: img-3;
+}
+
+.img-4 {
+    grid-area: img-4;
+}
+
+.img-5 {
+    grid-area: img-5;
+}
+
+.img-6 {
+    grid-area: img-6;
+}
+
+.img-7 {
+    grid-area: img-7;
+}
+
+.img-8 {
+    grid-area: img-8;
+}
+
+.gym-gallery div img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* -------------------------- MAIN / CLASSES --------------------------- */
+
+.title-lista h3 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;   
+    font-size: 1.5625rem; 
+}
+
+.title-lista h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+}
+
+.classes-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 400px 400px;
+    grid-template-areas: 
+    "class-1 class-2 class-3 class-3 class-3"
+    "class-4 class-4 class-4 class-5 class-6";
+}
+
+.class-1 {
+    grid-area: class-1;
+    background-color: #666466;
+}
+
+.class-2 {
+    grid-area: class-2;
+    background-color: burlywood
+}
+
+.class-3 {
+    grid-area: class-3;
+    background-color: aquamarine;
+}
+
+.class-4 {
+    grid-area: class-4;
+    background-color: rosybrown;
+}
+
+.class-5 {
+    grid-area: class-5;
+    background-color: blue;
+
+}
+
+.class-6 {
+    grid-area: class-6;
+    background-color: seagreen;
+}
+
+.classes-gallery div img {
+    width: 100%;
+    height: 100%;
+}
 
 
 
