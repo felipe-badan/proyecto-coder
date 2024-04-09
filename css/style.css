@@ -23,11 +23,15 @@ header {
     justify-content: start;
     align-items: center;
     background-color:#C2C2C2;
+    border: 1.5px solid black;
+
 }
 
 header div{
     width: 15%;
     background-color: white;
+    border-right: 1.5px solid black;
+    -webkit-text-stroke: 1px black;
 }
 
 header nav {
@@ -40,6 +44,7 @@ header div img {
 
 header div h2 {
     width: 80%;
+    
 }
 
 header div {
@@ -81,39 +86,45 @@ header nav ul li a {
 
 
 .hero-section div {
-    width: 60%;
+    width: 50%;
 }
 
 .hero-section div h1 {
     text-align: center;
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: "Oswald", sans-serif;
     font-weight: 500;   
-    color: rgba(245, 245, 245, 0.74);
+    color: rgba(255, 255, 255, 0.931);
+    -webkit-text-stroke: 2px black;
 }
 .hero-section div h2 {
+    text-align: center;
     font-size: 3.75rem;
-    color: white;
+    color: black;
     font-family: "Oswald", sans-serif;
     font-weight: 400;   
-    border: 1.5px solid white;
-    padding: 20px;
+    border: 4px solid black;
+    padding: 12px;
+    -webkit-text-stroke: 0.5px white;
 }
 
 .hero-section p{
     color: white;
     margin-top: 50px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
     font-size: 1.0625rem;
 }
 
 .boton {
-    background-color: gray;
+    background-color: rgba(233, 230, 230, 0.411);
     padding: 10px;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     border-radius: 5px;
     margin-top: 30px;
+    border: 2px solid black;
 }
 
 .about-irongym div {
@@ -125,8 +136,8 @@ header nav ul li a {
 }
 
 .about-irongym{
-    background-color: rgba(23, 23, 23, 0.409);
-    padding: 50px;
+    background-color: rgba(95, 93, 93, 0.856);
+    padding: 60px;
     display: flex;
     justify-content: center;
 }
@@ -158,6 +169,8 @@ header nav ul li a {
 .shape-body p{
     text-align: center;
     margin-top: 20px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300; 
 }
 
 .choose-title {
@@ -210,11 +223,12 @@ header nav ul li a {
 }
 
 .choose-us{
+    background-color: rgba(160, 159, 159, 0.539);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 30px 30px 45px 30px;
 }
 
 .feature-bloque img {
@@ -226,32 +240,161 @@ header nav ul li a {
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-weight: 600; 
+    padding: 35px 0 20px 0;
 }
 
 .classes-title h2 {
     font-size: 2.1875rem;
 }
 
+
 .our-classes {
     background-color: #666466;
+    padding-bottom: 45px;
+    /* height: 600px; */
 }
 
-.diff-classes img {
+.diff-classes div {
     width: 33.33%;
     height: 320px; 
 }
 
+.diff-classes div img {
+    width: 100%;
+    height: 100%;
+}
+
 .diff-classes {
     display: flex;
-    justify-content: center;
     margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crossfit-class {
+    position: relative;
+}
+
+.body-class {
+    position: relative;
+}
+
+.boxing-class {
+    position: relative;
+}
+
+.diff-classes h3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: rgba(255, 255, 255, 0.958);
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 8px black;
+}
+
+.body-class h3 {
+    top: 40%;
+    left: 33%;
 }
 
 
 
 
+.pricing-plans {
+    background-image: url("../assets/img/bgg.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    padding: 55px;
+}
+
+.pricing-title {
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px black;
+}
+
+.pricing-title h2 {
+    font-size: 2.1875rem;
+}
+
+.pricing-title h3 {
+    font-size: 1.3125rem;
+}
 
 
+.article-plans {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.card-plan h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    -webkit-text-stroke: 0.3px white;   
+}
+
+.card-plan h4 {
+    font-size: 3rem;
+
+}
+
+.card-plan hr {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.card-plan {
+    background-color: #9e9a9a80;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+
+.card-plan ul {
+    margin-bottom: 22px;
+}
+
+.card-plan ul li i {
+    margin-right: 5px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+
+.card-plan a {
+    background-color: rgba(128, 128, 128, 0.823);
+    padding: 6px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+#card-plan--color {
+    border: 2px solid #08E3FF;
+}
+
+#card-plan--color h3 {
+    color: #08E3FF;
+    font-weight: 400;
+    -webkit-text-stroke: 1px black;
+}
+
+#card-plan--color ul li i {
+    color: #08E3FF;
+}
 
 /* -------------------------- FOOTER -------------------------- */
 
@@ -284,6 +427,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: white;
+    border: 2px solid black;
+    /* -webkit-text-stroke: 1px black; */
 }
 
 .footer-logo img {
@@ -414,7 +559,7 @@ footer ul li img{
     background-image: url("../assets/img/bg-testimonials.jpg");
     background-image: cover;
     background-position: center;
-    height: 1000px;
+    height: 700px;
     padding: 30px;
 }
 
@@ -432,6 +577,65 @@ footer ul li img{
     font-family: "Oswald", sans-serif;
     font-weight: 700;
 }
+
+.testimonial-card {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    background-color: #d9d9d96e;
+    /* background-color: #D9D9D9; */
+    width: 33.33%;
+}
+
+
+.testimonial-card ul {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-card p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.client-opinions {
+    display: flex;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+.testimonial-card ul li {
+    font-size: 1.0625rem;
+}
+
+.client-img h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+
+}
+.client-img {
+    width: 20%;
+    /* background-color: #D9D9D9; */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.client-img img {
+    width: 100%;
+    /* background-color: #D9D9D9; */
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.client-info {
+    display: flex;
+    justify-content: center;
+    margin-top: 11px;
+}
+
+
+
+
+
 
 
 
@@ -532,11 +736,16 @@ footer ul li img{
 
 /* -------------------------- MAIN / CLASSES --------------------------- */
 
+.lista-classes {
+    background-color: black;
+}
+
 .title-lista h3 {
     text-align: center;
     font-family: "Oswald", sans-serif;
     font-weight: 700;   
     font-size: 1.5625rem; 
+    color: white;
 }
 
 .title-lista h2 {
@@ -544,12 +753,13 @@ footer ul li img{
     font-family: "Oswald", sans-serif;
     font-weight: 700;
     font-size: 2.1875rem;
+    color: white;
 }
 
 .classes-gallery {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 380px 380px;
     grid-template-areas: 
     "class-1 class-2 class-3 class-3 class-3"
     "class-4 class-4 class-4 class-5 class-6";
@@ -591,6 +801,213 @@ footer ul li img{
     height: 100%;
 }
 
+.classes-table {
+    background-image: url("../assets/img/time-table.jpg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 60px;
+}
+
+.day-class {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.801);
+    margin-top: 15px;
+    padding: 5px;
+
+}
+
+
+.days-bloque {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.days-bloque p {
+    color: white;
+    font-family: "Oswald", sans-serif;
+}
+
+.day-class h4 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700px;
+}
+
+.classes-schedule h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;   
+    font-size: 1.5625rem; 
+    color: white;
+}
+
+.classes-schedule h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    color: white;
+    margin-bottom: 70px;
+}
+
+
+/* -------------------------- MAIN / PRECIOS --------------------------- */
+
+
+.portada-plans {
+    background-image: url("../assets/img/bg-plans.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.portada-plans p {
+    width: 50%;
+    font-size: 1.5625rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600; 
+    
+}
+
+.portada-plans div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portada-plans h3 {
+    font-size: 1.5625rem;
+}
+.portada-plans h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+    .crossfit-class h3{
+        left: 38%;
+    }
+    .body-class h3{
+        left: 30%;
+    }
+}
+
+
+@media(max-width: 1274px){
+    .body-class h3{
+        left: 28%;
+    }
+    
+}
+
+@media(max-width: 1130px){
+    .body-class h3{
+        left: 26%;
+    }
+
+    .footer-logo h2 {
+        font-size: 1.375rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    header div h2 {
+        font-size: 1.25rem;
+    }
+
+    .hero-section div h2 {
+        font-size: 3.125rem;
+    }
+
+    .diff-classes h3 {
+        font-size: 1.75rem;
+    }
+
+    .body-class h3 {
+        left: 28%;
+    }
+    
+    .footer-logo h2 {
+        font-size: 1.3125rem;
+    }
+}
+
+@media (max-width: 1021px) {
+    .about-irongym div div {
+        width: 70%;
+    }    
+}
+
+@media (max-width: 974px) {
+    .footer-logo h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 937px ) {
+    .tres-col-div {
+        width: 25%;
+    }
+}
+
+@media (max-width: 915px) {
+    header div h2 {
+        font-size: 1.125rem;
+    }
+
+    .hero-section div h1 {
+        font-size: 2.8125rem;
+    }
+
+    .hero-section div h2 {
+        font-size: 2.8125rem;
+    }
+    
+    .body-class h3 {
+        left: 26%;
+    }
+}
+
+
+@media (max-width: 863px) {
+    .crossfit-class h3 {
+        left: 35%;
+    }
+    .body-class h3 {
+        left: 21%;
+    }
+    .boxing-class h3 {
+        left: 37%;
+    }
+
+}
+
+@media (max-width: 834px) {
+    header div h2 {
+        font-size: 1.0625rem;
+    }
+}
+
+@media (max-width: 797px) {
+    .hero-section div h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section div h2 {
+        font-size: 2.5rem;
+    }
+    .crossfit-class h3 {
+        left: 30%;
+    }
+    .body-class h3 {
+        left: 19%;
+    }
+}
 
 
 
@@ -616,11 +1033,6 @@ footer ul li img{
 
 
 
-
-
-
-
-/* ---------------------- HEADER --------------------------------- */
 
 
 
